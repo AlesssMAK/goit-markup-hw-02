@@ -23,14 +23,16 @@ a {
 }
 
 .logo-part {
-    color: #000080
+    color: #2e2f42
 }
 
 .page-nav-link {
     font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
-        color: #000080;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
 }
 
 .page-nav-link:hover {
@@ -39,9 +41,36 @@ a {
 
 .page-address-link {
         font-family: "Roboto", sans-serif;
-        font-weight: 500;
+        font-weight: 400;
         font-size: 16px;
+        line-height: 1.5;
         color: #434455;
+        font-style: normal;
     }
 
+.page-address-link:hover {
+    color: #4D5AE5;
+}
 
+.hero {
+    background-color: #2e2f42;
+}
+
+.title {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    .title-button {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        background-color: #4d5ae5
+    }
