@@ -46,12 +46,15 @@ a {
     color:#404bbf;;
 }
 
+.address {
+        font-style: normal;
+}
+
 .page-address-link {
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
-        font-style: normal;
         letter-spacing: 0.02em;
         color:#434455;
     }
@@ -114,6 +117,10 @@ a {
         background-color: #F4F4FD;
     }
 
+    .team-list-layer {
+        background-color: #FFFFFF;
+    }
+
     .team-title {
         font-weight: 700;
         font-size: 36px;
@@ -142,9 +149,6 @@ a {
         color:#434455;
     }
 
-    .portfolio {
-        background-color: #F4F4FD;
-    }
     .portfolio-title {
         font-weight: 700;
         font-size: 36px;
